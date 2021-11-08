@@ -207,6 +207,123 @@ nav {
     margin-bottom: 140px;
 }
 
+.block-3_text-block {
+    font-size: 24px;
+    font-family: 'Gelasio';
+    text-align: left;
+    margin: 20px 0 8px 0;
+    font-weight: medium;
+}
+
+.slider__item {
+    text-align: left;
+}
+
+.grade {
+    display: flex;
+}
+
+.New-York_block-1 {
+    display: flex;
+    
+}
+
+.New-York_city{
+    margin: auto 0;
+    color: rgb(100, 100, 100);
+}
+
+.grade-nomer  {
+    margin: auto 0;
+    font-weight: semibold;
+}
+.grade {
+    margin: auto 10px auto 0;
+}
+
+.New-York {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.location {
+    width: 11px;
+    height: 15px;
+    margin: auto 10px auto 0;
+}
+
+.block-day {
+    margin: 8px 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+}
+
+.block-many {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.many {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.person {
+    color: rgb(100, 100, 100);
+}
+
+.container-block {
+    width: 262px;
+    margin: 0 auto;
+}
+
+.slick-arrow{
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    display: flex;
+}
+
+.slick-next{
+    left: 65%;
+}
+
+.slick-prev {
+    right: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -230,17 +347,10 @@ nav {
 	.wrapper{padding: 50px 10px;}
 }
 
-/* Основные стили */
-
-/* Слайдер */
-.slick-slider{
-
-}
-/* Ограничивающая оболочка */
 .slick-list {
 	overflow: hidden;
 }
-/* Лента слайдов */
+
 .slick-track{
 	display: flex;
 	align-items: flex-start;
@@ -248,7 +358,7 @@ nav {
 
 .slider {
 	position: relative;
-	margin: 0px 73px;
+	margin: 0px 36.5px;
 }
 
 @media (max-width:767px){
@@ -265,7 +375,6 @@ nav {
     font-size: 0;
 }
 .slider .slick-arrow.slick-prev{
-	
 	background: url('../img/arrowleft.png') 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next{
@@ -281,10 +390,12 @@ nav {
 	align-items: center;
 	justify-content: center;
 }
+
 .slider .slick-dots li{
 	list-style: none;
     margin: 0 3px;
 }
+
 .slider .slick-dots button{
     width: 75px;
     height: 5px;
@@ -308,4 +419,42 @@ nav {
 
 .slider__item.slick-center {
     opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block-4 {
+    margin-top: 140px;
+}
+
+.Block-4_text_abzats {
+    width: 300px;
+    font-size: 18px;
+    color: #000;
+    opacity: 0.6;
 }
