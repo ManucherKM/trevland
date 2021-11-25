@@ -11,6 +11,8 @@ noActive.forEach((element, index, mas)=>{
              e_mail: element.children[1].children[2].innerHTML
          };
          cangCard(mainCard)
+         element.classList.remove('.nature');
+         element.classList.add('.nature');
     });
 })
 
@@ -23,7 +25,7 @@ function cangCard(element) {
     Home[1].innerHTML = element.title
     Home[2].innerHTML = element.text
     Home[3].innerHTML = element.e_mail
-    console.log(Home[2].innerHTML = element.text)
+    Home = mainCard;
 
 }
 

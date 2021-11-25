@@ -524,3 +524,15 @@ nav {
     min-width: 554px;
     min-height: 804px;
 }
+
+.natture-button {
+    width: 263px;
+    height: 201px;
+    border-radius: 12px;
+}
+
+.nature {
+    width: 554px;
+    height: 397px;
+    border-radius: 12px;
+}
