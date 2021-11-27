@@ -79,6 +79,8 @@ ul {
     justify-self: center;
     align-items: center;
     letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #fff;
 }
 
 nav {
@@ -103,6 +105,11 @@ nav {
     width: 187px;
     height: 59px;
     margin: 40px 0 0 0;
+}
+
+.a {
+    text-decoration: none;
+    color: #000;
 }
 
 .header {
@@ -159,7 +166,7 @@ nav {
 .ballon {
     width: 360px;
     height: 331px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .block-2_btn_text_ballon {
@@ -535,4 +542,127 @@ nav {
     width: 554px;
     height: 397px;
     border-radius: 12px;
+}
+
+.logo_dark {
+    font-family: 'Ribeye';
+    color: #000;
+    font-size: 24pt;
+    margin: auto 0;
+}
+
+.block_logo_text {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 40px 0 0 0;
+}
+
+.block_logo_Email {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+    text-decoration: none;
+}
+
+.logo_block_photo_networks {
+    display: flex;
+    justify-content: space-between;
+    width: 161px;
+}
+
+.footer_photo {
+    width: 20px;
+    height: 20px;
+}
+
+.footer_logo_networks {
+    padding: 70px 107px 100px 0;
+}
+
+.footer {
+    background: rgba(38, 148, 153, 0.04);;
+}
+.services {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    display: block;
+    text-decoration: none;
+}
+
+.margin_none_text {
+    margin: 0;
+}
+
+.footer_flex {
+    display: flex;
+}
+
+.footer_more_text {
+    padding: 70px 121px 78px 0;
+}
+
+.footer_more_text_two {
+    padding: 70px 133px 122px 0;
+}
+
+.block_logo_Em {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.SUBSCRIBENOW_text {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0 0 42px 0;
+    font-weight: bold;
+}
+
+.SUBSCRIBENOW {
+    padding: 70px 0 162px 0;
+}
+
+.footer_input {
+    width: 195px;
+    height: 44px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(202, 202, 202, 0.801);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+.footer_input::-webkit-input-placeholder {
+     color: rgb(0, 0, 0);
+     font-weight: 500;
+}
+
+.btn_footer {
+    width: 103px;
+    height: 44px;
+    background: #C9453B;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    transition: all;
+    transition: 500ms;
+    
+}
+
+.btn_footer:hover {
+    transition: all;
+    transition: 500ms;
+    background: #af3c34;
+}
+
+.input_botton {
+    display: flex;
 }
