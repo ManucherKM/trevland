@@ -2,15 +2,16 @@ $(document).ready(function(){
 	$('.slider').slick({
 		arrows:true,
 		dots:true,
-		slidesToShow:3,
-        slidesToScroll: 3,
+		slidesToShow: 4,
+        slidesToScroll: 1,
+		adaptiveHaight: false,
 		autoplay: false,
 		speed:800,
-        infinite: true,
-        initialSlide: 2,
+        infinite: false,
+        initialSlide: 0,
+		swipe: true,
         waitforAnimate: false,
-        centerMode: true,
-		
+        centerMode: false,
 	});
 });
 

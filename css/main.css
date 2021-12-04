@@ -25,6 +25,7 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(255, 255, 255);
+    overflow-x: hidden;
 }
 
 li {
@@ -238,12 +239,15 @@ nav {
 
 .New-York_city{
     margin: auto 0;
-    color: rgb(100, 100, 100);
+    color: rgba(100, 100, 100, 0.842);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .grade-nomer  {
     margin: auto 0;
     font-weight: semibold;
+    font-size: 18px;
 }
 .grade {
     margin: auto 10px auto 0;
@@ -252,11 +256,12 @@ nav {
 .New-York {
     display: flex;
     font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
 }
 
 .star {
     width: 24px;
-    height: 24px;
+    height: auto;
     margin-right: 10px;
 }
 
@@ -276,7 +281,7 @@ nav {
 
 .block-many {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
 }
 
@@ -302,11 +307,11 @@ nav {
 }
 
 .slick-next{
-    left: 65%;
+    left: 61%;
 }
 
 .slick-prev {
-    right: 65%;
+    right: 61%;
 }
 
 
@@ -355,9 +360,9 @@ nav {
 	.wrapper{padding: 50px 10px;}
 }
 
-.slick-list {
-	overflow: hidden;
-}
+/* .slick-list {
+	
+} */
 
 .slick-track{
 	display: flex;
@@ -425,11 +430,13 @@ nav {
 	max-width: 100%;
 }
 
-.slider__item.slick-center {
+.slick-center {
     opacity: 1;
 }
 
-
+.slick-active {
+    opacity: 1;
+}
 
 
 
@@ -467,6 +474,12 @@ nav {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6em;
+    width: 554px; 
+}
+
+.display_none {
+    display: block;
+    margin: 0;
 }
 
 .container {
