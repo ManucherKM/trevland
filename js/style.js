@@ -19,12 +19,16 @@ function cangCard(element) {
     Home[1].innerHTML = element.title;
     Home[2].innerHTML = element.text;
     Home[3].innerHTML = element.e_mail;
-    if (Home[3].textContent == '@thomasalva_adison') {
-        console.log('true');
+    if (Home[3].innerText === '@thomasalva_adison') {
+        Home[2].innerText = 'Какой-то текст описания 1й кнопки 111111111111111111111111111111111111111111111 \n11111111111111111111111111111111111111111111'
+    } else if (Home[3].innerText === '@adem_smith') {
+        Home[2].innerText = 'Какой-то текст описания 2й кнопки 222222222222222222222222222222222222222 \n222222222222222222222222222222222222222'
+    } else if (Home[3].innerText === '@jhon7leew') {
+        Home[2].innerText = 'Какой-то текст описания 3й кнопки 33333333333333333333333333333333 \n3333333333333333333333333333333333'
     } else {
-        console.log('false');
+        console.log('Ошибка')
     }
-    // console.log(Home[3].textContent);
 };
+
 
 
