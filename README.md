@@ -8,7 +8,7 @@
 
 ## Web application
 
-[Treveland](https://comfort-frontent-deploy.vercel.app)
+[Treveland](https://trevland-amber.vercel.app)
 
 ## Preview
 
