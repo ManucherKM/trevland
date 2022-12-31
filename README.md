@@ -12,4 +12,4 @@
 
 ## Preview
 
-[![Layout](https://github.com/ManucherKM/comfortFrontent/blob/main/preview/reg.png?raw=true)](https://trevland-amber.vercel.app)
+[![Layout](https://github.com/ManucherKM/trevland/blob/main/preview/home.png?raw=true)](https://trevland-amber.vercel.app)
